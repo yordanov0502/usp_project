@@ -12,4 +12,6 @@ module bg.tu_varna.sit.usp_project {
 
     opens bg.tu_varna.sit.usp_project to javafx.fxml;
     exports bg.tu_varna.sit.usp_project;
+    exports bg.tu_varna.sit.usp_project.application;
+    opens bg.tu_varna.sit.usp_project.application to javafx.fxml;
 }
